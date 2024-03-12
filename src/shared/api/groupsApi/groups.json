@@ -1,0 +1,146 @@
+{
+  "result": 1,
+  "data": [
+    {
+      "id": 1,
+      "name": "Группа 1",
+      "closed": false,
+      "avatar_color": "#ff0000",
+      "members_count": 10,
+      "friends": [
+        {
+          "first_name": "Иван",
+          "last_name": "Иванов"
+        },
+        {
+          "first_name": "Мария",
+          "last_name": "Петрова"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Группа 2",
+      "closed": true,
+      "members_count": 20,
+      "friends": [
+        {
+          "first_name": "Алексей",
+          "last_name": "Сидоров"
+        },
+        {
+          "first_name": "Елена",
+          "last_name": "Козлова"
+        },
+        {
+          "first_name": "Анна",
+          "last_name": "Иванова"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Группа 3",
+      "closed": false,
+      "avatar_color": "#00ff00",
+      "members_count": 15,
+      "friends": [
+        {
+          "first_name": "Петр",
+          "last_name": "Смирнов"
+        },
+        {
+          "first_name": "Ольга",
+          "last_name": "Федорова"
+        },
+        {
+          "first_name": "Сергей",
+          "last_name": "Попов"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Группа 4",
+      "closed": true,
+      "members_count": 8,
+      "friends": [
+        {
+          "first_name": "Наталья",
+          "last_name": "Морозова"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Группа 5",
+      "closed": false,
+      "members_count": 12
+    }
+  ,
+    {
+      "id": 6,
+      "name": "Группа 6",
+      "closed": false,
+      "avatar_color": "#00ff00",
+      "members_count": 15
+    },
+    {
+      "id": 7,
+      "name": "Группа 7",
+      "closed": true,
+      "members_count": 8,
+      "friends": [
+        {
+          "first_name": "Наталья",
+          "last_name": "Морозова"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Группа 8",
+      "closed": false,
+      "members_count": 12
+    },
+    {
+      "id": 9,
+      "name": "Группа 9",
+      "closed": false,
+      "avatar_color": "#005000",
+      "members_count": 15,
+      "friends": [
+        {
+          "first_name": "Петр",
+          "last_name": "Смирнов"
+        },
+        {
+          "first_name": "Ольга",
+          "last_name": "Федорова"
+        },
+        {
+          "first_name": "Сергей",
+          "last_name": "Попов"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Группа 10",
+      "closed": true,
+      "members_count": 8,
+      "friends": [
+        {
+          "first_name": "Наталья",
+          "last_name": "Морозова"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Группа 11",
+      "closed": false,
+      "members_count": 12
+    }
+  ]
+}

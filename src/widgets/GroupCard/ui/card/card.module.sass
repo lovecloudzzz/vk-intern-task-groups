@@ -1,0 +1,21 @@
+@import '@shared/UIKit/global'
+
+.card
+  display: flex
+  flex-direction: row
+  gap: 20px
+  max-width: 400px
+  border-bottom: #001100 1px solid
+  &Container
+    display: flex
+    flex-direction: column
+    &Name
+      +font-size(large)
+    &Privacy
+      +font-size(medium)
+    &Numbers
+      display: flex
+      flex-direction: row
+      gap: 10px
+      &Followers
+        +font-size(medium)

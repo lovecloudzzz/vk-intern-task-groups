@@ -1,0 +1,36 @@
+@import '@shared/UIKit/global'
+
+.friends
+  &Number
+    position: static
+    z-index: 1
+    +font-size(medium)
+    cursor: pointer
+    opacity: 0.8
+    &:hover
+      text-decoration: underline
+  &Modal
+    position: fixed
+    top: 50%
+    left: 50%
+    width: 100vw
+    height: 100vh
+    transform: translate(-50%, -50%)
+    display: flex
+    align-items: center
+    justify-content: center
+    background-color: rgba(0, 0, 0, 0.5)
+    z-index: 2
+    &Container
+      background-color: white
+      padding: 20px
+      border-radius: 8px
+      border: 1px #001100 solid
+      width: 400px
+      min-height: 400px
+      &List
+        list-style: none
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        gap: 30px

@@ -1,0 +1,15 @@
+@mixin font-size($size, $font-family: Monseratt)
+  font-family: $font-family
+  font-weight: normal
+  font-variant: normal
+  @if $size == small
+    font-size: 12px
+  @else if $size == medium
+    font-size: 16px
+  @else if $size == large
+    font-size: 20px
+  @else if $size == x-large
+    font-size: 24px
+  @else
+    @warn "Unknown size #{$size}. Using medium as default."
+    font-size: 16px
